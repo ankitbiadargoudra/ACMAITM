@@ -352,7 +352,7 @@ a:focus {
 
 .slider_section .img-box img {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 0%;
     -webkit-animation: upDown 5s infinite;
     animation: upDown 5s infinite;
 }
