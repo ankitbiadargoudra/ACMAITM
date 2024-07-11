@@ -7,7 +7,7 @@ body {
 }
 
 .layout_padding {
-    padding: 90px 0;
+    padding: 60px 0;
 }
 
 .layout_padding2 {
@@ -534,7 +534,7 @@ a:focus {
 }
 
 .about_section .heading_container {
-    margin-bottom: 45px;
+    margin-bottom: 0px;
 }
 
 .about_section .row {
@@ -543,13 +543,17 @@ a:focus {
     align-items: center;
 }
 
-
 .about_section .img-box img {
     max-width: 100%;
     border-radius: 10px;
     padding-top: 20px;
 }
 
+.about_section .img-box video {
+    max-width: 100%;
+    border-radius: 10px;
+    padding-top: 20px;
+}
 
 .about_section .detail-box h3 {
     font-weight: bold;
@@ -692,7 +696,7 @@ a:focus {
 }
 
 .team_section .team_container .box .img-box img {
-    width: 160px;
+    width: 200px;
     border-radius: 100%;
     border: 5px solid #000000;
 }
@@ -792,13 +796,22 @@ a:focus {
 .client_section .box .detail-box {
     background-color: #ffffff;
     -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.539);
     padding: 75px 25px 25px 25px;
 }
 
 .client_section .box .detail-box i {
-    color: #00204a;
+    color: #000000;
     margin-bottom: 10px;
+}
+
+.client_section .box .detail-box a {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.client_section .box .detail-box i:hover {
+    color: #00bbf0;
 }
 
 .client_section .owl-carousel .owl-nav {
